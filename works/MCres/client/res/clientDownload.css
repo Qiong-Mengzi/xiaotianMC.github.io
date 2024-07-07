@@ -70,7 +70,8 @@ svg{
 }
 
 .text{
-    margin: 0 20px 0 10px;
+    margin-left: 4rem;
+    margin-right: auto;
 }
 
 /* TITLE & SEARCH */
