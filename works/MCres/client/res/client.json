@@ -1,8 +1,9 @@
 [
     {
         "icon": "/works/MCres/client/res/icon/fabric.png",
-        "name": "1.7.10模组测试端",
-        "version": "Fabric",
+        "name": "${version}模组测试端（${loader}）",
+        "loader": "Fabric",
+        "version": "1.7.10",
         "url": ""
     }
 ]

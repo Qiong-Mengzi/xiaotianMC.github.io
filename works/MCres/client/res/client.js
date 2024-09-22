@@ -22,5 +22,12 @@ var fetched_data = Succubus.FetchJSON('/works/MCres/client/res/client.json')
 
 function ClientSearchCurse() {
     show_element = document.querySelectorAll('div.realList>ul')[0]
+    let textSearch = Succubus.JSON_DeepCopy(document.querySelector('span.Search input').value)
+    let VersionRe = /([\d]+\.[\d]+\.[\d]+)/
+    let ShortVersionRe = /([\d]+\.[\d]+)/
+    let KeyVersion = textSearch.match(VersionRe)
+    if(KeyVersion.length < 1)
+        
+
     
 }
